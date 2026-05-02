@@ -12,7 +12,6 @@ This project implements a complete single-cell RNA sequencing (scRNA-seq) analys
 
 The goal was to identify distinct immune cell populations from gene expression data alone — with no prior labels — and then train a classifier to predict cell identity from transcriptional profiles.
 
-This type of analysis is directly relevant to large-scale genomics initiatives like the [IGVF Consortium](https://igvf.org/), which maps regulatory element and gene activity at single-cell resolution across hundreds of cell types.
 
 ---
 
@@ -173,7 +172,7 @@ The 3k PBMC dataset is freely available from 10x Genomics and downloads automati
 
 ## Background & Motivation
 
-This project was built to develop practical skills in computational genomics, particularly in the single-cell methods used by large consortia like IGVF. The pipeline design was informed by the canonical Scanpy tutorial but extended with:
+This project was built to develop practical skills in computational genomics, particularly in the single-cell methods used by large consortia. The pipeline design was informed by the canonical Scanpy tutorial but extended with:
 
 - Iterative cell type annotation based on marker gene evidence rather than first-pass assignment
 - Supervised ML classification layer with class-balanced Random Forest
@@ -188,5 +187,5 @@ The challenge of handling rare and transitional cell populations in scRNA-seq da
 
 **Dana Harper**  
 MS Computer Science candidate · California State University Channel Islands  
-[dana.harper151@myci.csuci.edu](mailto:dana.harper151@myci.csuci.edu) · [GitHub](https://github.com/danaharper151)
+[GitHub](https://github.com/danaharper151)
 
